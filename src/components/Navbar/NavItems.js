@@ -1,4 +1,4 @@
-export const MenuItems = [
+const NavItems = [
     {
         title: 'Home',
         url: '/',
@@ -29,5 +29,6 @@ export const MenuItems = [
         url: '/https://github.com/toastMaduro-hub',
         cName: 'nav-links-mobile'
     }
+];
 
-]
+export default NavItems;

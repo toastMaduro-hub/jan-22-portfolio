@@ -11,7 +11,7 @@ const SIZES = [
     'btn--large'
 ]
 
-export const Button = ({
+const Button = ({
     children,
     type,
     onClick,
@@ -28,4 +28,6 @@ export const Button = ({
             {children}
         </button>
     )
-}
+};
+
+export default Button;

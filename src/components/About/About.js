@@ -1,9 +1,11 @@
 import React from "react";
+import './About.css'
 
 class About extends React.Component {
     render() {
         return (
             <div
+                className="about-sec"
                 style={{
                     display: 'flex',
                     justifyContent: 'Right',
@@ -11,7 +13,7 @@ class About extends React.Component {
                     height: '100vh'
                 }}
             >
-                <h1>This is my about page</h1>    
+                <h1>This is my about page</h1>
             </div>
         );
     };

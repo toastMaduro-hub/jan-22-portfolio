@@ -8,7 +8,7 @@ class MainIntro extends React.Component {
       <section>
         <div className="intro-container">
           <h1>
-            LET ME INTRODUCE MYSELF
+            LET ME INTRODUCE <span className="myself">MYSELF</span>
           </h1>
           <p>
             I fell in love with programming and I have at least learnt

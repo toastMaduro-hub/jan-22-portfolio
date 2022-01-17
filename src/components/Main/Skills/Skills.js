@@ -71,7 +71,6 @@ import SkillsIcons from './SkillsIcons';
 import './Skills.css'
 
 function Skills() {
-
     return (
         <div className="skills-container">
             <div className="title">

@@ -1,10 +1,8 @@
 
 .footer {
     background-color: rgb(10, 4, 22);
-    bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 8px ;
   }
+  
   .footer-copywright {
     text-align: center;
   }
@@ -18,6 +16,10 @@
       display: inline-flex;
       padding-left: 1em;
       padding-right: 1em;
+  }
+
+  .social-icons a {
+    color: gray;
   }
   
   @media (max-width: 767px) {

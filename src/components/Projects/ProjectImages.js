@@ -15,7 +15,7 @@ const ProjectImages = [
         href: 'https://toastmaduro-hub.github.io/portfolioProject/'
     },
     {
-        title: 'ReactJS Portfolio',
+        title: 'this.ReactJS Portfolio',
         discription: '- useState, useRef & React hooks',
         href: 'https://github.com/toastMaduro-hub/jan-22-portfolio'
     },

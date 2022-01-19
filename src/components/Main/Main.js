@@ -54,7 +54,8 @@ function Main() {
     }
 
     function handleClick2() {
-        mainIntroRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        window.scrollTo(0, 5000)
+        // mainIntroRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' })
     }
 
     function handleClick3() {

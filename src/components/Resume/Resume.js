@@ -1,20 +1,16 @@
 import React from "react";
+import './Resume.css'
 
-class Resume extends React.Component {
-    render() {
+function Resume() {
         return (
-            <div
-                style={{
-                    display: 'flex',
-                    justifyContent: 'Right',
-                    alignItems: 'Right',
-                    height: '100vh'
-                }}
-            >
-                <h1>This is my resume</h1>    
+            <div className="super">
+                 <div className="resume">
+                </div>
+                <div className="resume-2">
+                </div>
             </div>
-        )
-    }
-};
+    )
+}
 
 export default Resume;
+

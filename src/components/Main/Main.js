@@ -61,7 +61,6 @@ function Main() {
         window.scrollTo(0, 0)
     }
 
-
     return (
         <section>
             <div className="main-container">
@@ -76,18 +75,15 @@ function Main() {
                     <br />
                     <Type />
                 </div>
-
                 <div className="down-arrow">
                     <i onClick={handleClick}><RiArrowDownSLine /></i>
                 </div>
             </div>
             <div>
                 <Skills />
-
                 <div className="down-arrow">
                     <i onClick={handleClick2}><RiArrowDownSLine /></i>
                 </div>
-
             </div>
             <div ref={mainIntroRef}>
                 <MainIntro />
@@ -95,7 +91,6 @@ function Main() {
                     <i onClick={handleClick3}><RiArrowUpSLine /></i>
                 </div>
             </div>
-
         </section>
     )
 

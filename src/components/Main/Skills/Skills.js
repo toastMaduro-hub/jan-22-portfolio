@@ -77,7 +77,7 @@ function Skills() {
                 <h1>Professional <span className="bold">Skillset</span></h1>
             </div>
 
-            {/* Map is being called on SkillsIcons array with a callback that returns each item into a column.  */}
+            {/* Returning each icon with map */}
 
             <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
                 {SkillsIcons.map((item) => {

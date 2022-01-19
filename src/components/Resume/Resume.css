@@ -1,0 +1,52 @@
+ .super {
+    display: flex;
+  
+}
+
+.resume {
+
+    margin: auto;
+    width: 50%;
+    height: 700px;
+    
+    background-image: url("./Jared-Veltsos-Resume-1.jpg");
+    background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        /* margin-bottom: 5%;  */
+    
+     
+
+
+}
+
+.resume-2 {
+ 
+    margin: auto;
+    width: 50%;
+    height: 700px;
+
+    background-image: url("./Jared-Veltsos-Resume-2.jpg");
+    background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+
+
+} 
+
+@media (max-width: 1000px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume {
+        height: 500px;
+       
+    }
+
+    .resume-2 {
+        height: 500px;
+       
+    }
+}

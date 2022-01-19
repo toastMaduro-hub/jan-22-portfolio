@@ -17,6 +17,9 @@ function Footer() {
                 </Col>
                 <Col md="4" className="footer-body">
                     <ul className="footer-icons">
+
+                        {/* Returning each icon with map */}
+
                         {FooterAssets.map((item, index) => {
                             return (
                                 <li key={index} className="social-icons">

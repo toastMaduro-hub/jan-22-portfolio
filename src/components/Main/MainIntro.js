@@ -11,22 +11,22 @@ class MainIntro extends React.Component {
             LET ME INTRODUCE <span className="myself">MYSELF</span>
           </h1>
           <p>
-            I fell in love with programming and I have at least learnt
+            I fell in <span className="myself">love</span> with programming and I have at least learned
             something, I think… 🤷‍♂️
             <br />
             <br />I am proficient in languages and technologies like
             <i>
-              <b> Javascript and React.js </b>
+              <b> <span className="myself">Javascript</span> and <span className="myself">React.js</span> </b>
             </i>
             <br />
             <br />
             I also like to mess with the backend using
             <i>
-              <b> web technologies </b> like Node.js
+              <b> web technologies </b> like <span className="myself">Node.js</span>
             </i>
             <br />
             <br />
-            Learning new things is a general interest of mine, and when I decide I want to learn something
+            <span className="myself">Learning</span> new things is a general interest of mine, and when I decide I want to learn something
             <br />
             I usually go all-in.
             <i>
@@ -37,7 +37,7 @@ class MainIntro extends React.Component {
               </b>
               <br />
               <br />
-              <b> Enter coding and endless learning</b>
+              <b> Enter coding and endless learning.</b>
             </i>
           </p>
         </div>

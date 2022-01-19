@@ -1,20 +1,25 @@
-  .skills-container {
-      padding-left: 100px;
-      padding-right: 100px;
-      align-items: center;
-      justify-content: center;
-  }
+.contact-sect {
+    height: 85vh;
+}
 
-  .title {
-      text-align: center;
-  }
+h1 {
+    cursor: pointer;
+}
 
-  .title .bold {
-      font-weight: 900;
-      color: rgba(200, 137, 230, 0.637);
-  }
-  
-  .tech-icons {
+.email {
+  cursor: pointer;
+  color: rgba(200, 137, 230, 0.637);
+}
+
+.icon-section {
+  margin-top: 5%;
+}
+
+.email:hover {
+  color: gray;
+}
+
+.contact-icons {
     font-size: 4.5em;
     margin: 15px;
     padding: 10px;
@@ -23,32 +28,43 @@
     vertical-align: middle;
     text-align: center;
     border-radius: 5px;
-    display: table;
+    display: inline-flex;
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
     overflow: hidden;
     transition: all 0.4s ease 0s;
+    color: gray;
   }
-  
-  @media (max-width: 767px) {
-    .tech-icons {
+
+  .contact-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+
+}
+
+@media (max-width: 767px) {
+    .contact-icons {
       margin: 10px;
     }
   }
   
-  .tech-icons:hover {
+  .contact-icons:hover {
     transform: scale(1.05);
     overflow: hidden;
     border: 2.2px solid rgba(197, 115, 230, 0.883);
+    color: gray;
   }
-  .tech-icons-images {
+  
+  .contact-icons-images {
     padding: 20px;
     line-height: 1.6;
   }
 
   @media (max-width: 417px) {
-    .tech-icons {
+    .contact-icons {
       display: flex;
       
     }
   }
-  

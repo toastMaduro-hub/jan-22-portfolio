@@ -1,33 +1,28 @@
-import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiMongodb,
-    DiGit,
-    DiStackoverflow,
-    DiCss3,
-    DiHtml5,
-    DiGithubBadge,
-} from "react-icons/di";
-import {TiWeatherCloudy} from "react-icons/ti"
-import { SiExpress } from "react-icons/si"
-
 const ProjectImages = [
     {
-        title: 'Weather App',
-        discription: '- JS App featuring API calls'
+        title: 'CRUD App',
+        discription: '- Create, Read, Update, Delete using MongoDB, ExpressJS and ReactJS',
+        href: 'https://crudy-crud.herokuapp.com/'
     },
     {
-        title: 'CRUD App',
-        discription: '- Create, Remove, Update, Delete using MongoDB, ExpressJS and ReactJS'
+        title: 'Weather App',
+        discription: '- JS App featuring API calls',
+        href: 'https://toastmaduro-hub.github.io/weatherAppResponsive/'
     },
     {
         title: 'Smooth Scroll Site',
-        discription: '- JS Website featuring smooth scroll'
+        discription: '- JS Website featuring smooth scroll',
+        href: 'https://toastmaduro-hub.github.io/portfolioProject/'
     },
     {
         title: 'ReactJS Portfolio',
-        discription: '- useState, useRef & React hooks'
+        discription: '- useState, useRef & React hooks',
+        href: 'https://github.com/toastMaduro-hub/jan-22-portfolio'
+    },
+    {
+        title: 'First HTML, CSS, JS Form Project',
+        discription: 'HTMl form submissions',
+        href: 'https://toastmaduro-hub.github.io/formAStory/'
     }
 ]
 

@@ -41,18 +41,15 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="project-container">
-                <div className="heading">
-                    {/* <h1>Professional <span className="bold">Projects</span></h1> */}
-                </div>
 
-                {/* Map is being called on SkillsIcons array with a callback that returns each item into a column.  */}
+                {/* Returning each icon with map */}
 
                 <div className="main">
                     {ProjectImages.map((item) => {
                         return (
                             <div className="img-container">
                                 <div className="img">
-                                    <a>
+                                    <a href={item.href} target="_blank" rel="noreferrer" >
                                         <h2>{item.title} </h2>
                                         <p>{item.discription}</p>
                                     </a>

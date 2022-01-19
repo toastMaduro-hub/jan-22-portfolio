@@ -8,3 +8,10 @@
 .myself {
    color: rgba(200, 137, 230, 0.637);
 }
+
+@media (max-width: 900px) {
+    .intro-container {
+        padding-left: 10%;
+        
+    }
+}

@@ -9,7 +9,7 @@
     width: 50%;
     height: 700px;
     
-    background-image: url("./Jared-Veltsos-Resume-1.jpg");
+    background-image: url("./jaredVeltsosDevResume.jpg");
     background-size: contain;
         background-repeat: no-repeat;
         background-position: 50% 50%;
@@ -19,20 +19,6 @@
 
 
 }
-
-.resume-2 {
- 
-    margin: auto;
-    width: 50%;
-    height: 700px;
-
-    background-image: url("./Jared-Veltsos-Resume-2.jpg");
-    background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-
-
-} 
 
 @media (max-width: 1000px) {
     .main {

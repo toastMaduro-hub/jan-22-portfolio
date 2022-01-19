@@ -6,8 +6,6 @@ function Resume() {
             <div className="super">
                  <div className="resume">
                 </div>
-                <div className="resume-2">
-                </div>
             </div>
     )
 }

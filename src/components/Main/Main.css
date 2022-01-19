@@ -66,3 +66,9 @@
       transform: rotate(0deg);
     }
   }  
+
+  @media screen and (min-height: 935px) {
+    .main-container {
+      margin-top: 30%;
+    }
+  }

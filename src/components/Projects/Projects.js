@@ -51,7 +51,8 @@ class Projects extends React.Component {
                                 <div className="img">
                                     <a href={item.href} target="_blank" rel="noreferrer" >
                                         <h2>{item.title} </h2>
-                                        <p>{item.discription}</p>
+                                        <p>{item.discription} </p>  
+                                        <a className="gitLogo" target='_blank' rel="noreferrer" href={item.github}> {item.gitLogo} <span className="gittxt">View the code</span> </a>
                                     </a>
                                 </div>
                             </div>

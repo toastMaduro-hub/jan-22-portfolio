@@ -38,5 +38,19 @@
   color: gray;
 }
 
+.gitLogo {
+  text-decoration: none;
+  cursor: pointer;
+  color: gray;
+  font-size: 2em;
+}
+
+.gitLogo:hover {
+  color: rgba(200, 137, 230, 0.637);
+}
+
+.gittxt {
+  font-size: .5em;
+}
  
 

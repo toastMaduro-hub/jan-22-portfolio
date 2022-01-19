@@ -16,7 +16,7 @@ const ProjectImages = [
     },
     {
         title: 'this.ReactJS Portfolio',
-        discription: '- useState, useRef & React hooks',
+        discription: '- Functional components, class components, React hooks',
         href: 'https://github.com/toastMaduro-hub/jan-22-portfolio'
     },
     {

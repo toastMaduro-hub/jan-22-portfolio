@@ -1,29 +1,10 @@
-import React, { useRef } from "react";
 import Type from "../../Assets/TypeWriterEffect/TypeWriter";
 import Skills from './Skills/Skills'
 import MainIntro from "./MainIntro";
 import './Main.css'
-import { RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
+import DownArrow from "../../Assets/DownArrow/DownArrow";
 
 function Main() {
-
-    // const skillRef = useRef();
-    const mainIntroRef = useRef();
-    // const upper = useRef();
-
-    function handleClick() {
-        // skillRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
-        window.scrollTo(0, 800)
-    }
-
-    function handleClick2() {
-        window.scrollTo(0, 5000)
-        // mainIntroRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' })
-    }
-
-    function handleClick3() {
-        window.scrollTo(0, 0)
-    }
 
     return (
         <section>
@@ -39,25 +20,18 @@ function Main() {
                     <br />
                     <Type />
                 </div>
-                <div className="down-arrow">
-                    <i onClick={handleClick}><RiArrowDownSLine /></i>
-                </div>
+                <DownArrow locationX={0} locationY={800} />
             </div>
             <div>
                 <Skills />
-                <div className="down-arrow">
-                    <i onClick={handleClick2}><RiArrowDownSLine /></i>
-                </div>
+                <DownArrow locationX={0} locationY={1750} />
             </div>
-            <div ref={mainIntroRef}>
+            <div>
                 <MainIntro />
-                <div className="down-arrow">
-                    <i onClick={handleClick3}><RiArrowUpSLine /></i>
-                </div>
+                <DownArrow location='bottom' locationX={0} locationY={0} />
             </div>
         </section>
     )
-
 }
 
 export default Main;

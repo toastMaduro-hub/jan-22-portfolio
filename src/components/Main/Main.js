@@ -1,3 +1,4 @@
+import React from "react";
 import Type from "../../Assets/TypeWriterEffect/TypeWriter";
 import Skills from './Skills/Skills'
 import MainIntro from "./MainIntro";

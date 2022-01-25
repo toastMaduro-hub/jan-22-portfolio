@@ -4,11 +4,6 @@ import Button from "../../Assets/Button/Button"
 import './Navbar.css'
 
 class Navbar extends React.Component {
-    // state = { clicked: false }
-
-    // handleClick = () => {
-    //     this.setState({ clicked: !this.state.clicked })
-    // }
 
     constructor(props) {
         super(props);

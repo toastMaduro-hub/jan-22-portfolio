@@ -29,10 +29,10 @@ const ProjectImages = [
         gitLogo: <DiGithubBadge />
     },
     {
-        title: 'First HTML, CSS, JS Form Project',
-        discription: 'HTMl form submissions',
-        href: 'https://toastmaduro-hub.github.io/formAStory/',
-        github: 'https://github.com/toastMaduro-hub/formAStory',
+        title: 'Interesting Places: Full-Stack MERN App',
+        discription: 'MongoDB, Express, React, NodeJS',
+        href: 'https://github.com/toastMaduro-hub/favorite-places',
+        github: 'https://github.com/toastMaduro-hub/favorite-places',
         gitLogo: <DiGithubBadge />
     }
 ]

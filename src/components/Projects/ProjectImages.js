@@ -9,17 +9,17 @@ const ProjectImages = [
         gitLogo: <DiGithubBadge />
     },
     {
+        title: 'Interesting Places: Full-Stack MERN App',
+        discription: 'MongoDB, Express, React, NodeJS',
+        href: 'https://github.com/toastMaduro-hub/favorite-places',
+        github: 'https://github.com/toastMaduro-hub/favorite-places',
+        gitLogo: <DiGithubBadge />
+    },
+    {
         title: 'Weather App',
         discription: '- JS App featuring API calls',
         href: 'https://toastmaduro-hub.github.io/weatherAppResponsive/',
         github: 'https://github.com/toastMaduro-hub/weatherAppResponsive',
-        gitLogo: <DiGithubBadge />
-    },
-    {
-        title: 'Smooth Scroll Site',
-        discription: '- JS Website featuring smooth scroll',
-        href: 'https://toastmaduro-hub.github.io/portfolioProject/',
-        github: 'https://github.com/toastMaduro-hub/portfolioProject',
         gitLogo: <DiGithubBadge />
     },
     {
@@ -29,10 +29,10 @@ const ProjectImages = [
         gitLogo: <DiGithubBadge />
     },
     {
-        title: 'Interesting Places: Full-Stack MERN App',
-        discription: 'MongoDB, Express, React, NodeJS',
-        href: 'https://github.com/toastMaduro-hub/favorite-places',
-        github: 'https://github.com/toastMaduro-hub/favorite-places',
+        title: 'Smooth Scroll Site',
+        discription: '- JS Website featuring smooth scroll',
+        href: 'https://toastmaduro-hub.github.io/portfolioProject/',
+        github: 'https://github.com/toastMaduro-hub/portfolioProject',
         gitLogo: <DiGithubBadge />
     }
 ]

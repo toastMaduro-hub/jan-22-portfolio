@@ -12,7 +12,7 @@ const ProjectImages = [
         title: 'Interesting Places: Full-Stack MERN App',
         discription: 'MongoDB, Express, React, NodeJS',
         href: 'https://github.com/toastMaduro-hub/favorite-places',
-        github: 'https://github.com/toastMaduro-hub/favorite-places',
+        github: 'https://github.com/toastMaduro-hub/favorite-places-backend',
         gitLogo: <DiGithubBadge />
     },
     {
